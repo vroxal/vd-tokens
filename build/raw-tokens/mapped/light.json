@@ -1,0 +1,482 @@
+{
+  "Color": {
+    "Content": {
+      "Default": {
+        "Base": {
+          "$value": "{Brand.Color.Neutral.900}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Neutral.600}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Neutral.500}",
+          "$type": "color"
+        },
+        "Disabled": {
+          "$value": "{Brand.Color.Neutral.400}",
+          "$type": "color"
+        },
+        "AlwaysLight": {
+          "$value": "{Brand.Color.Neutral.50}",
+          "$type": "color"
+        },
+        "AlwaysDark": {
+          "$value": "{Brand.Color.Neutral.900}",
+          "$type": "color"
+        }
+      },
+      "Primary": {
+        "Base": {
+          "$value": "{Brand.Color.Primary.500}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Primary.600}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Primary.700}",
+          "$type": "color"
+        },
+        "OnBase": {
+          "$value": "{Brand.Color.Primary.50}",
+          "$type": "color"
+        },
+        "OnSecondary": {
+          "$value": "{Brand.Color.Primary.700}",
+          "$type": "color"
+        },
+        "OnTertiary": {
+          "$value": "{Brand.Color.Primary.200}",
+          "$type": "color"
+        }
+      },
+      "Success": {
+        "Base": {
+          "$value": "{Brand.Color.Success.500}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Success.600}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Success.700}",
+          "$type": "color"
+        },
+        "OnBase": {
+          "$value": "{Brand.Color.Success.50}",
+          "$type": "color"
+        },
+        "OnSecondary": {
+          "$value": "{Brand.Color.Success.700}",
+          "$type": "color"
+        },
+        "OnTertiary": {
+          "$value": "{Brand.Color.Success.200}",
+          "$type": "color"
+        }
+      },
+      "Error": {
+        "Base": {
+          "$value": "{Brand.Color.Error.500}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Error.600}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Error.700}",
+          "$type": "color"
+        },
+        "OnBase": {
+          "$value": "{Brand.Color.Error.50}",
+          "$type": "color"
+        },
+        "OnSecondary": {
+          "$value": "{Brand.Color.Error.700}",
+          "$type": "color"
+        },
+        "OnTertiary": {
+          "$value": "{Brand.Color.Error.200}",
+          "$type": "color"
+        }
+      },
+      "Warning": {
+        "Base": {
+          "$value": "{Brand.Color.Warning.500}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Warning.600}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Warning.700}",
+          "$type": "color"
+        },
+        "OnBase": {
+          "$value": "{Brand.Color.Warning.50}",
+          "$type": "color"
+        },
+        "OnSecondary": {
+          "$value": "{Brand.Color.Warning.700}",
+          "$type": "color"
+        },
+        "OnTertiary": {
+          "$value": "{Brand.Color.Warning.200}",
+          "$type": "color"
+        }
+      },
+      "Info": {
+        "Base": {
+          "$value": "{Brand.Color.Info.500}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Info.600}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Info.700}",
+          "$type": "color"
+        },
+        "OnBase": {
+          "$value": "{Brand.Color.Info.50}",
+          "$type": "color"
+        },
+        "OnSecondary": {
+          "$value": "{Brand.Color.Info.700}",
+          "$type": "color"
+        },
+        "OnTertiary": {
+          "$value": "{Brand.Color.Info.200}",
+          "$type": "color"
+        }
+      },
+      "Neutral": {
+        "Base": {
+          "$value": "{Brand.Color.Neutral.600}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Neutral.700}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Neutral.800}",
+          "$type": "color"
+        },
+        "OnBase": {
+          "$value": "{Brand.Color.Neutral.50}",
+          "$type": "color"
+        },
+        "OnSecondary": {
+          "$value": "{Brand.Color.Neutral.700}",
+          "$type": "color"
+        },
+        "OnTertiary": {
+          "$value": "{Brand.Color.Neutral.100}",
+          "$type": "color"
+        }
+      }
+    },
+    "Background": {
+      "Default": {
+        "Base": {
+          "$value": "{Brand.Color.Neutral.100}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.White.1000}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Neutral.200}",
+          "$type": "color"
+        },
+        "Disabled": {
+          "$value": "{Brand.Color.Neutral.200}",
+          "$type": "color"
+        },
+        "AlwaysLight": {
+          "$value": "{Brand.Color.White.1000}",
+          "$type": "color"
+        },
+        "AlwaysDark": {
+          "$value": "{Brand.Color.Neutral.900}",
+          "$type": "color"
+        }
+      },
+      "Primary": {
+        "Base": {
+          "$value": "{Brand.Color.Primary.500}",
+          "$type": "color"
+        },
+        "BaseHover": {
+          "$value": "{Brand.Color.Primary.600}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Primary.100}",
+          "$type": "color"
+        },
+        "SecondaryHover": {
+          "$value": "{Brand.Color.Primary.200}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Primary.800}",
+          "$type": "color"
+        },
+        "TertiaryHover": {
+          "$value": "{Brand.Color.Primary.700}",
+          "$type": "color"
+        }
+      },
+      "Success": {
+        "Base": {
+          "$value": "{Brand.Color.Success.500}",
+          "$type": "color"
+        },
+        "BaseHover": {
+          "$value": "{Brand.Color.Success.600}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Success.100}",
+          "$type": "color"
+        },
+        "SecondaryHover": {
+          "$value": "{Brand.Color.Success.200}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Success.800}",
+          "$type": "color"
+        },
+        "TertiaryHover": {
+          "$value": "{Brand.Color.Success.700}",
+          "$type": "color"
+        }
+      },
+      "Error": {
+        "Base": {
+          "$value": "{Brand.Color.Error.500}",
+          "$type": "color"
+        },
+        "BaseHover": {
+          "$value": "{Brand.Color.Error.600}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Error.100}",
+          "$type": "color"
+        },
+        "SecondaryHover": {
+          "$value": "{Brand.Color.Error.200}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Error.800}",
+          "$type": "color"
+        },
+        "TertiaryHover": {
+          "$value": "{Brand.Color.Error.700}",
+          "$type": "color"
+        }
+      },
+      "Warning": {
+        "Base": {
+          "$value": "{Brand.Color.Warning.500}",
+          "$type": "color"
+        },
+        "BaseHover": {
+          "$value": "{Brand.Color.Warning.600}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Warning.100}",
+          "$type": "color"
+        },
+        "SecondaryHover": {
+          "$value": "{Brand.Color.Warning.200}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Warning.800}",
+          "$type": "color"
+        },
+        "TertiaryHover": {
+          "$value": "{Brand.Color.Warning.700}",
+          "$type": "color"
+        }
+      },
+      "Info": {
+        "Base": {
+          "$value": "{Brand.Color.Info.500}",
+          "$type": "color"
+        },
+        "BaseHover": {
+          "$value": "{Brand.Color.Info.600}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Info.100}",
+          "$type": "color"
+        },
+        "SecondaryHover": {
+          "$value": "{Brand.Color.Info.200}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Info.800}",
+          "$type": "color"
+        },
+        "TertiaryHover": {
+          "$value": "{Brand.Color.Info.700}",
+          "$type": "color"
+        }
+      },
+      "Neutral": {
+        "Base": {
+          "$value": "{Brand.Color.Neutral.500}",
+          "$type": "color"
+        },
+        "BaseHover": {
+          "$value": "{Brand.Color.Neutral.600}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Neutral.200}",
+          "$type": "color"
+        },
+        "SecondaryHover": {
+          "$value": "{Brand.Color.Neutral.300}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Neutral.800}",
+          "$type": "color"
+        },
+        "TertiaryHover": {
+          "$value": "{Brand.Color.Neutral.700}",
+          "$type": "color"
+        }
+      },
+      "Overlay": {
+        "Base": {
+          "$value": "{Brand.Color.Utilities.Overlay}",
+          "$type": "color"
+        }
+      }
+    },
+    "Border": {
+      "Default": {
+        "Base": {
+          "$value": "{Brand.Color.Neutral.500}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Neutral.400}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Neutral.300}",
+          "$type": "color"
+        },
+        "Disabled": {
+          "$value": "{Brand.Color.Neutral.300}",
+          "$type": "color"
+        }
+      },
+      "Primary": {
+        "Base": {
+          "$value": "{Brand.Color.Primary.500}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Primary.700}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Primary.300}",
+          "$type": "color"
+        }
+      },
+      "Success": {
+        "Base": {
+          "$value": "{Brand.Color.Success.500}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Success.700}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Success.300}",
+          "$type": "color"
+        }
+      },
+      "Error": {
+        "Base": {
+          "$value": "{Brand.Color.Error.500}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Error.700}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Error.300}",
+          "$type": "color"
+        }
+      },
+      "Warning": {
+        "Base": {
+          "$value": "{Brand.Color.Warning.500}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Warning.700}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Warning.300}",
+          "$type": "color"
+        }
+      },
+      "Info": {
+        "Base": {
+          "$value": "{Brand.Color.Info.500}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Info.700}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Info.300}",
+          "$type": "color"
+        }
+      },
+      "Neutral": {
+        "Base": {
+          "$value": "{Brand.Color.Neutral.500}",
+          "$type": "color"
+        },
+        "Secondary": {
+          "$value": "{Brand.Color.Neutral.700}",
+          "$type": "color"
+        },
+        "Tertiary": {
+          "$value": "{Brand.Color.Neutral.400}",
+          "$type": "color"
+        }
+      }
+    }
+  }
+}

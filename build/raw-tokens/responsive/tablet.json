@@ -1,0 +1,344 @@
+{
+  "Font": {
+    "Size": {
+      "Display": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.Size.1100}",
+          "$type": "fontSize"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.Size.1000}",
+          "$type": "fontSize"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.Size.900}",
+          "$type": "fontSize"
+        }
+      },
+      "Headline": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.Size.800}",
+          "$type": "fontSize"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.Size.700}",
+          "$type": "fontSize"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.Size.600}",
+          "$type": "fontSize"
+        }
+      },
+      "Title": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.Size.500}",
+          "$type": "fontSize"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.Size.400}",
+          "$type": "fontSize"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.Size.300}",
+          "$type": "fontSize"
+        }
+      },
+      "Label": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.Size.400}",
+          "$type": "fontSize"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.Size.300}",
+          "$type": "fontSize"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.Size.200}",
+          "$type": "fontSize"
+        },
+        "ExtraSmall": {
+          "$value": "{Brand.Font.Scale.Size.100}",
+          "$type": "fontSize"
+        }
+      },
+      "Body": {
+        "ExtraLarge": {
+          "$value": "{Brand.Font.Scale.Size.600}",
+          "$type": "fontSize"
+        },
+        "Large": {
+          "$value": "{Brand.Font.Scale.Size.400}",
+          "$type": "fontSize"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.Size.300}",
+          "$type": "fontSize"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.Size.200}",
+          "$type": "fontSize"
+        },
+        "ExtraSmall": {
+          "$value": "{Brand.Font.Scale.Size.100}",
+          "$type": "fontSize"
+        }
+      }
+    },
+    "LineHeight": {
+      "Display": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.LineHeight.1000}",
+          "$type": "lineHeight"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.LineHeight.900}",
+          "$type": "lineHeight"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.LineHeight.800}",
+          "$type": "lineHeight"
+        }
+      },
+      "Headline": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.LineHeight.700}",
+          "$type": "lineHeight"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.LineHeight.600}",
+          "$type": "lineHeight"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.LineHeight.500}",
+          "$type": "lineHeight"
+        }
+      },
+      "Title": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.LineHeight.400}",
+          "$type": "lineHeight"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.LineHeight.300}",
+          "$type": "lineHeight"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.LineHeight.200}",
+          "$type": "lineHeight"
+        }
+      },
+      "Label": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.LineHeight.300}",
+          "$type": "lineHeight"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.LineHeight.300}",
+          "$type": "lineHeight"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.LineHeight.100}",
+          "$type": "lineHeight"
+        },
+        "ExtraSmall": {
+          "$value": "{Brand.Font.Scale.LineHeight.100}",
+          "$type": "lineHeight"
+        }
+      },
+      "Body": {
+        "ExtraLarge": {
+          "$value": "{Brand.Font.Scale.LineHeight.600}",
+          "$type": "lineHeight"
+        },
+        "Large": {
+          "$value": "{Brand.Font.Scale.LineHeight.300}",
+          "$type": "lineHeight"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.LineHeight.300}",
+          "$type": "lineHeight"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.LineHeight.100}",
+          "$type": "lineHeight"
+        },
+        "ExtraSmall": {
+          "$value": "{Brand.Font.Scale.LineHeight.100}",
+          "$type": "lineHeight"
+        }
+      }
+    },
+    "LetterSpacing": {
+      "Display": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.Negative1500}",
+          "$type": "letterSpacing"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.Negative1000}",
+          "$type": "letterSpacing"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.Negative500}",
+          "$type": "letterSpacing"
+        }
+      },
+      "Headline": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.Negative300}",
+          "$type": "letterSpacing"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.Negative300}",
+          "$type": "letterSpacing"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.Negative300}",
+          "$type": "letterSpacing"
+        }
+      },
+      "Title": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.0}",
+          "$type": "letterSpacing"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.0}",
+          "$type": "letterSpacing"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.0}",
+          "$type": "letterSpacing"
+        }
+      },
+      "Label": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.200}",
+          "$type": "letterSpacing"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.200}",
+          "$type": "letterSpacing"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.200}",
+          "$type": "letterSpacing"
+        },
+        "ExtraSmall": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.200}",
+          "$type": "letterSpacing"
+        }
+      },
+      "Body": {
+        "ExtraLarge": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.0}",
+          "$type": "letterSpacing"
+        },
+        "Large": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.0}",
+          "$type": "letterSpacing"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.0}",
+          "$type": "letterSpacing"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.0}",
+          "$type": "letterSpacing"
+        },
+        "ExtraSmall": {
+          "$value": "{Brand.Font.Scale.LetterSpacing.0}",
+          "$type": "letterSpacing"
+        }
+      }
+    },
+    "Weight": {
+      "Display": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.Weight.Title}",
+          "$type": "fontWeight"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.Weight.Title}",
+          "$type": "fontWeight"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.Weight.Title}",
+          "$type": "fontWeight"
+        }
+      },
+      "Headline": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.Weight.Title}",
+          "$type": "fontWeight"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.Weight.Title}",
+          "$type": "fontWeight"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.Weight.Title}",
+          "$type": "fontWeight"
+        }
+      },
+      "Title": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.Weight.Title}",
+          "$type": "fontWeight"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.Weight.Title}",
+          "$type": "fontWeight"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.Weight.Title}",
+          "$type": "fontWeight"
+        }
+      },
+      "Label": {
+        "Large": {
+          "$value": "{Brand.Font.Scale.Weight.Label}",
+          "$type": "fontWeight"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.Weight.Label}",
+          "$type": "fontWeight"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.Weight.Label}",
+          "$type": "fontWeight"
+        },
+        "ExtraSmall": {
+          "$value": "{Brand.Font.Scale.Weight.Label}",
+          "$type": "fontWeight"
+        }
+      },
+      "Body": {
+        "ExtraLarge": {
+          "$value": "{Brand.Font.Scale.Weight.Body}",
+          "$type": "fontWeight"
+        },
+        "Large": {
+          "$value": "{Brand.Font.Scale.Weight.Body}",
+          "$type": "fontWeight"
+        },
+        "Medium": {
+          "$value": "{Brand.Font.Scale.Weight.Body}",
+          "$type": "fontWeight"
+        },
+        "MediumItalic": {
+          "$value": "{Brand.Font.Scale.Weight.BodyItalic}",
+          "$type": "fontWeight"
+        },
+        "Small": {
+          "$value": "{Brand.Font.Scale.Weight.Body}",
+          "$type": "fontWeight"
+        },
+        "ExtraSmall": {
+          "$value": "{Brand.Font.Scale.Weight.Body}",
+          "$type": "fontWeight"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "Color": {
+    "Primary": {
+      "50": {
+        "$value": "{Root.Color.BlueGlow.50}",
+        "$type": "color"
+      },
+      "100": {
+        "$value": "{Root.Color.BlueGlow.100}",
+        "$type": "color"
+      },
+      "200": {
+        "$value": "{Root.Color.BlueGlow.200}",
+        "$type": "color"
+      },
+      "300": {
+        "$value": "{Root.Color.BlueGlow.300}",
+        "$type": "color"
+      },
+      "400": {
+        "$value": "{Root.Color.BlueGlow.400}",
+        "$type": "color"
+      },
+      "500": {
+        "$value": "{Root.Color.BlueGlow.500}",
+        "$type": "color"
+      },
+      "600": {
+        "$value": "{Root.Color.BlueGlow.600}",
+        "$type": "color"
+      },
+      "700": {
+        "$value": "{Root.Color.BlueGlow.700}",
+        "$type": "color"
+      },
+      "800": {
+        "$value": "{Root.Color.BlueGlow.800}",
+        "$type": "color"
+      },
+      "900": {
+        "$value": "{Root.Color.BlueGlow.900}",
+        "$type": "color"
+      }
+    },
+    "Error": {
+      "50": {
+        "$value": "{Root.Color.Red.50}",
+        "$type": "color"
+      },
+      "100": {
+        "$value": "{Root.Color.Red.100}",
+        "$type": "color"
+      },
+      "200": {
+        "$value": "{Root.Color.Red.200}",
+        "$type": "color"
+      },
+      "300": {
+        "$value": "{Root.Color.Red.300}",
+        "$type": "color"
+      },
+      "400": {
+        "$value": "{Root.Color.Red.400}",
+        "$type": "color"
+      },
+      "500": {
+        "$value": "{Root.Color.Red.500}",
+        "$type": "color"
+      },
+      "600": {
+        "$value": "{Root.Color.Red.600}",
+        "$type": "color"
+      },
+      "700": {
+        "$value": "{Root.Color.Red.700}",
+        "$type": "color"
+      },
+      "800": {
+        "$value": "{Root.Color.Red.800}",
+        "$type": "color"
+      },
+      "900": {
+        "$value": "{Root.Color.Red.900}",
+        "$type": "color"
+      }
+    },
+    "Success": {
+      "50": {
+        "$value": "{Root.Color.Green.50}",
+        "$type": "color"
+      },
+      "100": {
+        "$value": "{Root.Color.Green.100}",
+        "$type": "color"
+      },
+      "200": {
+        "$value": "{Root.Color.Green.200}",
+        "$type": "color"
+      },
+      "300": {
+        "$value": "{Root.Color.Green.300}",
+        "$type": "color"
+      },
+      "400": {
+        "$value": "{Root.Color.Green.400}",
+        "$type": "color"
+      },
+      "500": {
+        "$value": "{Root.Color.Green.500}",
+        "$type": "color"
+      },
+      "600": {
+        "$value": "{Root.Color.Green.600}",
+        "$type": "color"
+      },
+      "700": {
+        "$value": "{Root.Color.Green.700}",
+        "$type": "color"
+      },
+      "800": {
+        "$value": "{Root.Color.Green.800}",
+        "$type": "color"
+      },
+      "900": {
+        "$value": "{Root.Color.Green.900}",
+        "$type": "color"
+      }
+    },
+    "Warning": {
+      "50": {
+        "$value": "{Root.Color.Orange.50}",
+        "$type": "color"
+      },
+      "100": {
+        "$value": "{Root.Color.Orange.100}",
+        "$type": "color"
+      },
+      "200": {
+        "$value": "{Root.Color.Orange.200}",
+        "$type": "color"
+      },
+      "300": {
+        "$value": "{Root.Color.Orange.300}",
+        "$type": "color"
+      },
+      "400": {
+        "$value": "{Root.Color.Orange.400}",
+        "$type": "color"
+      },
+      "500": {
+        "$value": "{Root.Color.Orange.500}",
+        "$type": "color"
+      },
+      "600": {
+        "$value": "{Root.Color.Orange.600}",
+        "$type": "color"
+      },
+      "700": {
+        "$value": "{Root.Color.Orange.700}",
+        "$type": "color"
+      },
+      "800": {
+        "$value": "{Root.Color.Orange.800}",
+        "$type": "color"
+      },
+      "900": {
+        "$value": "{Root.Color.Orange.900}",
+        "$type": "color"
+      }
+    },
+    "Info": {
+      "50": {
+        "$value": "{Root.Color.Blue.50}",
+        "$type": "color"
+      },
+      "100": {
+        "$value": "{Root.Color.Blue.100}",
+        "$type": "color"
+      },
+      "200": {
+        "$value": "{Root.Color.Blue.200}",
+        "$type": "color"
+      },
+      "300": {
+        "$value": "{Root.Color.Blue.300}",
+        "$type": "color"
+      },
+      "400": {
+        "$value": "{Root.Color.Blue.400}",
+        "$type": "color"
+      },
+      "500": {
+        "$value": "{Root.Color.Blue.500}",
+        "$type": "color"
+      },
+      "600": {
+        "$value": "{Root.Color.Blue.600}",
+        "$type": "color"
+      },
+      "700": {
+        "$value": "{Root.Color.Blue.700}",
+        "$type": "color"
+      },
+      "800": {
+        "$value": "{Root.Color.Blue.800}",
+        "$type": "color"
+      },
+      "900": {
+        "$value": "{Root.Color.Blue.900}",
+        "$type": "color"
+      }
+    },
+    "Neutral": {
+      "50": {
+        "$value": "{Root.Color.Grey.50}",
+        "$type": "color"
+      },
+      "100": {
+        "$value": "{Root.Color.Grey.100}",
+        "$type": "color"
+      },
+      "200": {
+        "$value": "{Root.Color.Grey.200}",
+        "$type": "color"
+      },
+      "300": {
+        "$value": "{Root.Color.Grey.300}",
+        "$type": "color"
+      },
+      "400": {
+        "$value": "{Root.Color.Grey.400}",
+        "$type": "color"
+      },
+      "500": {
+        "$value": "{Root.Color.Grey.500}",
+        "$type": "color"
+      },
+      "600": {
+        "$value": "{Root.Color.Grey.600}",
+        "$type": "color"
+      },
+      "700": {
+        "$value": "{Root.Color.Grey.700}",
+        "$type": "color"
+      },
+      "800": {
+        "$value": "{Root.Color.Grey.800}",
+        "$type": "color"
+      },
+      "900": {
+        "$value": "{Root.Color.Grey.900}",
+        "$type": "color"
+      }
+    },
+    "White": {
+      "100": {
+        "$value": "{Root.Color.Opaque.White.100}",
+        "$type": "color"
+      },
+      "200": {
+        "$value": "{Root.Color.Opaque.White.200}",
+        "$type": "color"
+      },
+      "300": {
+        "$value": "{Root.Color.Opaque.White.300}",
+        "$type": "color"
+      },
+      "400": {
+        "$value": "{Root.Color.Opaque.White.400}",
+        "$type": "color"
+      },
+      "500": {
+        "$value": "{Root.Color.Opaque.White.500}",
+        "$type": "color"
+      },
+      "600": {
+        "$value": "{Root.Color.Opaque.White.600}",
+        "$type": "color"
+      },
+      "700": {
+        "$value": "{Root.Color.Opaque.White.700}",
+        "$type": "color"
+      },
+      "800": {
+        "$value": "{Root.Color.Opaque.White.800}",
+        "$type": "color"
+      },
+      "900": {
+        "$value": "{Root.Color.Opaque.White.900}",
+        "$type": "color"
+      },
+      "1000": {
+        "$value": "{Root.Color.Opaque.White.1000}",
+        "$type": "color"
+      }
+    },
+    "Black": {
+      "100": {
+        "$value": "{Root.Color.Opaque.Black.100}",
+        "$type": "color"
+      },
+      "200": {
+        "$value": "{Root.Color.Opaque.Black.200}",
+        "$type": "color"
+      },
+      "300": {
+        "$value": "{Root.Color.Opaque.Black.300}",
+        "$type": "color"
+      },
+      "400": {
+        "$value": "{Root.Color.Opaque.Black.400}",
+        "$type": "color"
+      },
+      "500": {
+        "$value": "{Root.Color.Opaque.Black.500}",
+        "$type": "color"
+      },
+      "600": {
+        "$value": "{Root.Color.Opaque.Black.600}",
+        "$type": "color"
+      },
+      "700": {
+        "$value": "{Root.Color.Opaque.Black.700}",
+        "$type": "color"
+      },
+      "800": {
+        "$value": "{Root.Color.Opaque.Black.800}",
+        "$type": "color"
+      },
+      "900": {
+        "$value": "{Root.Color.Opaque.Black.900}",
+        "$type": "color"
+      },
+      "1000": {
+        "$value": "{Root.Color.Opaque.Black.1000}",
+        "$type": "color"
+      }
+    },
+    "Utilities": {
+      "Overlay": {
+        "$value": "{Root.Color.Opaque.Neutral.Overlay}",
+        "$type": "color"
+      }
+    }
+  },
+  "Scale": {
+    "Border": {
+      "Width": {
+        "none": {
+          "$value": "{Root.Scale.0}",
+          "$type": "strokeWidth"
+        },
+        "sm": {
+          "$value": "{Root.Scale.25}",
+          "$type": "strokeWidth"
+        },
+        "md": {
+          "$value": "{Root.Scale.50}",
+          "$type": "strokeWidth"
+        },
+        "lg": {
+          "$value": "{Root.Scale.100}",
+          "$type": "strokeWidth"
+        },
+        "xl": {
+          "$value": "{Root.Scale.200}",
+          "$type": "strokeWidth"
+        }
+      },
+      "Radius": {
+        "none": {
+          "$value": "{Root.Scale.0}",
+          "$type": "borderRadius"
+        },
+        "xs": {
+          "$value": "{Root.Scale.100}",
+          "$type": "borderRadius"
+        },
+        "sm": {
+          "$value": "{Root.Scale.200}",
+          "$type": "borderRadius"
+        },
+        "md": {
+          "$value": "{Root.Scale.300}",
+          "$type": "borderRadius"
+        },
+        "lg": {
+          "$value": "{Root.Scale.400}",
+          "$type": "borderRadius"
+        },
+        "xl": {
+          "$value": "{Root.Scale.600}",
+          "$type": "borderRadius"
+        },
+        "xxl": {
+          "$value": "{Root.Scale.800}",
+          "$type": "borderRadius"
+        },
+        "xxxl": {
+          "$value": "{Root.Scale.1000}",
+          "$type": "borderRadius"
+        },
+        "Full": {
+          "$value": "{Root.Scale.3000}",
+          "$type": "borderRadius"
+        }
+      }
+    },
+    "Icon": {
+      "Size": {
+        "xl": {
+          "$value": "{Root.Scale.1000}",
+          "$type": "string"
+        },
+        "lg": {
+          "$value": "{Root.Scale.800}",
+          "$type": "string"
+        },
+        "md": {
+          "$value": "{Root.Scale.600}",
+          "$type": "string"
+        },
+        "sm": {
+          "$value": "{Root.Scale.500}",
+          "$type": "string"
+        },
+        "xs": {
+          "$value": "{Root.Scale.400}",
+          "$type": "string"
+        }
+      }
+    },
+    "Spacing": {
+      "0": {
+        "$value": "{Root.Scale.0}",
+        "$type": "spacing"
+      },
+      "50": {
+        "$value": "{Root.Scale.50}",
+        "$type": "spacing"
+      },
+      "100": {
+        "$value": "{Root.Scale.100}",
+        "$type": "spacing"
+      },
+      "200": {
+        "$value": "{Root.Scale.200}",
+        "$type": "spacing"
+      },
+      "300": {
+        "$value": "{Root.Scale.300}",
+        "$type": "spacing"
+      },
+      "400": {
+        "$value": "{Root.Scale.400}",
+        "$type": "spacing"
+      },
+      "600": {
+        "$value": "{Root.Scale.600}",
+        "$type": "spacing"
+      },
+      "800": {
+        "$value": "{Root.Scale.800}",
+        "$type": "spacing"
+      },
+      "1000": {
+        "$value": "{Root.Scale.1000}",
+        "$type": "spacing"
+      },
+      "1200": {
+        "$value": "{Root.Scale.1200}",
+        "$type": "spacing"
+      },
+      "1600": {
+        "$value": "{Root.Scale.1600}",
+        "$type": "spacing"
+      },
+      "1800": {
+        "$value": "{Root.Scale.1800}",
+        "$type": "spacing"
+      },
+      "2400": {
+        "$value": "{Root.Scale.2400}",
+        "$type": "spacing"
+      },
+      "3000": {
+        "$value": "{Root.Scale.3000}",
+        "$type": "spacing"
+      },
+      "Negative50": {
+        "$value": "{Root.Scale.Negative50}",
+        "$type": "spacing"
+      },
+      "Negative100": {
+        "$value": "{Root.Scale.Negative100}",
+        "$type": "spacing"
+      },
+      "Negative200": {
+        "$value": "{Root.Scale.Negative200}",
+        "$type": "spacing"
+      },
+      "Negative300": {
+        "$value": "{Root.Scale.Negative300}",
+        "$type": "spacing"
+      },
+      "Negative400": {
+        "$value": "{Root.Scale.Negative400}",
+        "$type": "spacing"
+      },
+      "Negative600": {
+        "$value": "{Root.Scale.Negative600}",
+        "$type": "spacing"
+      }
+    }
+  },
+  "Font": {
+    "Style": {
+      "Primary": {
+        "$value": "{Root.Font.Poppins.FamilyName}",
+        "$type": "fontFamily"
+      }
+    },
+    "Scale": {
+      "Size": {
+        "100": {
+          "$value": 10,
+          "$type": "number"
+        },
+        "200": {
+          "$value": 12,
+          "$type": "number"
+        },
+        "300": {
+          "$value": 14,
+          "$type": "number"
+        },
+        "400": {
+          "$value": 16,
+          "$type": "number"
+        },
+        "500": {
+          "$value": 20,
+          "$type": "number"
+        },
+        "600": {
+          "$value": 24,
+          "$type": "number"
+        },
+        "700": {
+          "$value": 28,
+          "$type": "number"
+        },
+        "800": {
+          "$value": 34,
+          "$type": "number"
+        },
+        "900": {
+          "$value": 40,
+          "$type": "number"
+        },
+        "1000": {
+          "$value": 48,
+          "$type": "number"
+        },
+        "1100": {
+          "$value": 56,
+          "$type": "number"
+        },
+        "1200": {
+          "$value": 60,
+          "$type": "number"
+        }
+      },
+      "LineHeight": {
+        "100": {
+          "$value": 16,
+          "$type": "number"
+        },
+        "200": {
+          "$value": 20,
+          "$type": "number"
+        },
+        "300": {
+          "$value": 24,
+          "$type": "number"
+        },
+        "400": {
+          "$value": 28,
+          "$type": "number"
+        },
+        "500": {
+          "$value": 32,
+          "$type": "number"
+        },
+        "600": {
+          "$value": 36,
+          "$type": "number"
+        },
+        "700": {
+          "$value": 40,
+          "$type": "number"
+        },
+        "800": {
+          "$value": 48,
+          "$type": "number"
+        },
+        "900": {
+          "$value": 56,
+          "$type": "number"
+        },
+        "1000": {
+          "$value": 64,
+          "$type": "number"
+        },
+        "1100": {
+          "$value": 72,
+          "$type": "number"
+        }
+      },
+      "LetterSpacing": {
+        "0": {
+          "$value": 0,
+          "$type": "number"
+        },
+        "200": {
+          "$value": 0.20000000298023224,
+          "$type": "number"
+        },
+        "Negative300": {
+          "$value": -0.30000001192092896,
+          "$type": "number"
+        },
+        "Negative500": {
+          "$value": -0.5,
+          "$type": "number"
+        },
+        "Negative1000": {
+          "$value": -1,
+          "$type": "number"
+        },
+        "Negative1500": {
+          "$value": -1.5,
+          "$type": "number"
+        }
+      },
+      "Weight": {
+        "Title": {
+          "$value": "{Root.Font.Poppins.SemiBold}",
+          "$type": "number"
+        },
+        "Label": {
+          "$value": "{Root.Font.Poppins.Medium}",
+          "$type": "number"
+        },
+        "Body": {
+          "$value": "{Root.Font.Poppins.Regular}",
+          "$type": "number"
+        },
+        "BodyItalic": {
+          "$value": "{Root.Font.Poppins.RegularItalic}",
+          "$type": "string"
+        }
+      }
+    }
+  }
+}

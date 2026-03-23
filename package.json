@@ -1,0 +1,28 @@
+{
+  "name": "@vroxal/vd-tokens",
+  "description": "Vroxal Design Tokens",
+  "version": "1.0.0",
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "Tokens",
+    "Design Tokens",
+    "Library",
+    "Vroxal Design"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vroxal/vd-tokens.git"
+  },
+  "homepage": "https://github.com/vroxal/vd-tokens#readme",
+  "bugs": {
+    "url": "https://github.com/vroxal/vd-tokens/issues"
+  },
+  "author": "@vroxal",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build/scripts/build-all.js"
+  },
+  "style": "dist/index.css"
+}

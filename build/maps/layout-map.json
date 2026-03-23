@@ -1,0 +1,71 @@
+{
+  ".layout": {
+    "--vd-layout-navbar-height": "var(--vd-scale-spacing-1600)",
+    "--vd-layout-sidebar-width": "calc(2 * var(--vd-scale-spacing-3000))",
+    "min-height": "100dvh",
+    "display": "grid",
+    "grid-template-rows": "minmax(0, 1fr)",
+    "background": "var(--vd-color-background-default-base)"
+  },
+  ".layout__header, .layout__aside": {
+    "display": "none",
+    "background": "var(--vd-color-background-default-secondary)"
+  },
+  ".layout__body": {
+    "min-height": "0",
+    "display": "grid",
+    "grid-template-columns": "minmax(0, 1fr)"
+  },
+  ".layout__content": {
+    "min-width": "0",
+    "min-height": "0",
+    "overflow": "auto",
+    "padding": "var(--vd-scale-spacing-600)",
+    "margin-bottom": "var(--vd-scale-spacing-1800)",
+    "max-width": "calc(12 * var(--vd-scale-spacing-3000))",
+    "margin-inline": "auto",
+    "width": "100%"
+  },
+  ".layout--has-navbar": {
+    "grid-template-rows": "minmax(0, 1fr)"
+  },
+  ".layout--has-navbar .layout__header": {
+    "display": "block",
+    "position": "fixed",
+    "top": "0",
+    "left": "0",
+    "width": "100%",
+    "height": "var(--vd-layout-navbar-height)",
+    "z-index": "999"
+  },
+  ".layout--has-sidebar .layout__body": {
+    "grid-template-columns": "minmax(0, 1fr)"
+  },
+  ".layout--has-sidebar .layout__aside": {
+    "display": "block",
+    "position": "fixed",
+    "top": "0",
+    "left": "0",
+    "width": "var(--vd-layout-sidebar-width)",
+    "height": "100dvh",
+    "overflow": "auto"
+  },
+  ".layout--has-navbar.layout--has-sidebar .layout__aside": {
+    "top": "var(--vd-layout-navbar-height)",
+    "height": "calc(100dvh - var(--vd-layout-navbar-height))"
+  },
+  ".layout--has-navbar .layout__content": {
+    "margin-top": "var(--vd-layout-navbar-height)"
+  },
+  ".layout--has-sidebar .layout__content": {
+    "margin-left": "var(--vd-layout-sidebar-width)",
+    "width": "100%",
+    "max-width": "calc(100% - var(--vd-layout-sidebar-width))"
+  },
+  ".layout__header > *": {
+    "width": "100%"
+  },
+  ".layout__aside > *": {
+    "height": "100%"
+  }
+}
