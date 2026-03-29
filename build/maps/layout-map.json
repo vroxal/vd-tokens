@@ -8,8 +8,7 @@
     "background": "var(--vd-color-background-default-base)"
   },
   ".layout__header, .layout__aside": {
-    "display": "none",
-    "background": "var(--vd-color-background-default-secondary)"
+    "display": "none"
   },
   ".layout__body": {
     "min-height": "0",
