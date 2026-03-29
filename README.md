@@ -63,25 +63,6 @@ Or load individual files if you want finer control:
 @import "@vroxal/vd-tokens/dist/semantic/typography-semantic.css";
 ```
 
-## Local Development
-
-Install dependencies and run the build:
-
-```bash
-npm install
-npm run build
-```
-
-The build script:
-
-1. generates token CSS from the JSON token sources
-2. generates semantic typography CSS
-3. generates `global.css`
-4. generates `layout.css`
-5. generates `index.css`
-6. copies fonts into `dist/fonts`
-7. copies guideline markdown into `dist/guidelines`
-
 ## Usage
 
 ### Import Everything
@@ -126,7 +107,7 @@ The generated CSS is desktop-first:
 Theme overrides are emitted with the `data-theme` attribute:
 
 ```html
-<html data-theme="dark">
+<html data-theme="dark"></html>
 ```
 
 Brand overrides are only emitted when more than one brand token source exists. In the current repository state, the generator has a single brand token source, so base brand values are merged directly into `:root`.
@@ -153,6 +134,25 @@ The package also ships Markdown guidelines for implementation:
 - `LAYOUT_GUIDELINES.md`
 
 These documents describe the semantic intent behind token selection and are copied to `dist/guidelines/` during the build.
+
+## Local Development
+
+Install dependencies and run the build:
+
+```bash
+npm install
+npm run build
+```
+
+The build script:
+
+1. generates token CSS from the JSON token sources
+2. generates semantic typography CSS
+3. generates `global.css`
+4. generates `layout.css`
+5. generates `index.css`
+6. copies fonts into `dist/fonts`
+7. copies guideline markdown into `dist/guidelines`
 
 ## Demo
 
