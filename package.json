@@ -1,7 +1,7 @@
 {
   "name": "@vroxal/vd-tokens",
   "description": "Vroxal Design Tokens",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "files": [
     "dist/"
   ],

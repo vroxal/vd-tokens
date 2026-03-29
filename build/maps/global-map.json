@@ -1,7 +1,7 @@
 {
   "body": {
     "color": "var(--vd-color-content-default-secondary)",
-    "background-color": "var(--vd-color-background-default-base)",
+    "background-color": "var(--vd-color-background-default-secondary)",
     "-webkit-font-smoothing": "antialiased",
     "-moz-osx-font-smoothing": "grayscale"
   },
