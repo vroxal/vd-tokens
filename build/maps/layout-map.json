@@ -1,5 +1,5 @@
 {
-  ".layout": {
+  ".vd-layout": {
     "--vd-layout-navbar-height": "var(--vd-scale-spacing-1600)",
     "--vd-layout-sidebar-width": "calc(2 * var(--vd-scale-spacing-3000))",
     "min-height": "100dvh",
@@ -7,15 +7,15 @@
     "grid-template-rows": "auto minmax(0, 1fr)",
     "background": "var(--vd-color-background-default-base)"
   },
-  ".layout__header, .layout__aside": {
+  ".vd-layout__header, .vd-layout__aside": {
     "display": "none"
   },
-  ".layout__body": {
+  ".vd-layout__body": {
     "min-height": "0",
     "display": "grid",
     "grid-template-columns": "minmax(0, 1fr)"
   },
-  ".layout__content": {
+  ".vd-layout__content": {
     "min-width": "0",
     "min-height": "0",
     "overflow": "auto",
@@ -25,10 +25,10 @@
     "margin-inline": "auto",
     "width": "100%"
   },
-  ".layout--has-navbar": {
+  ".vd-layout--has-navbar": {
     "grid-template-rows": "minmax(0, 1fr)"
   },
-  ".layout--has-navbar .layout__header": {
+  ".vd-layout--has-navbar .vd-layout__header": {
     "display": "block",
     "position": "sticky",
     "grid-column": "1 / -1",
@@ -36,10 +36,10 @@
     "height": "var(--vd-layout-navbar-height)",
     "z-index": "999"
   },
-  ".layout--has-sidebar .layout__body": {
+  ".vd-layout--has-sidebar .vd-layout__body": {
     "grid-template-columns": "var(--vd-layout-sidebar-width) minmax(0, 1fr)"
   },
-  ".layout--has-sidebar .layout__aside": {
+  ".vd-layout--has-sidebar .vd-layout__aside": {
     "display": "block",
     "position": "sticky",
     "top": "0",
@@ -48,21 +48,21 @@
     "height": "100dvh",
     "overflow": "auto"
   },
-  ".layout--has-navbar.layout--has-sidebar .layout__aside": {
+  ".vd-layout--has-navbar.vd-layout--has-sidebar .vd-layout__aside": {
     "top": "var(--vd-layout-navbar-height)",
     "height": "calc(100dvh - var(--vd-layout-navbar-height))"
   },
-  ".layout--has-navbar .layout__content": {
+  ".vd-layout--has-navbar .vd-layout__content": {
     "margin-top": "var(--vd-layout-navbar-height)"
   },
-  ".layout--has-sidebar .layout__content": {
+  ".vd-layout--has-sidebar .vd-layout__content": {
     "width": "100%",
     "max-width": "calc(100% - var(--vd-layout-sidebar-width))"
   },
-  ".layout__header > *": {
+  ".vd-layout__header > *": {
     "width": "100%"
   },
-  ".layout__aside > *": {
+  ".vd-layout__aside > *": {
     "height": "100%"
   }
 }
