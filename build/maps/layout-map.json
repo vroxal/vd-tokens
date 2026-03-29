@@ -34,7 +34,7 @@
     "position": "sticky",
     "grid-column": "1 / -1",
     "top": "0",
-    "min-height": "var(--vd-layout-navbar-height)",
+    "height": "var(--vd-layout-navbar-height)",
     "z-index": "999"
   },
   ".layout--has-sidebar .layout__body": {
@@ -57,7 +57,6 @@
     "margin-top": "var(--vd-layout-navbar-height)"
   },
   ".layout--has-sidebar .layout__content": {
-    "margin-left": "var(--vd-layout-sidebar-width)",
     "width": "100%",
     "max-width": "calc(100% - var(--vd-layout-sidebar-width))"
   },
