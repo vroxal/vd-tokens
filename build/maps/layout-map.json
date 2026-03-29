@@ -4,7 +4,7 @@
     "--vd-layout-sidebar-width": "calc(2 * var(--vd-scale-spacing-3000))",
     "min-height": "100dvh",
     "display": "grid",
-    "grid-template-rows": "minmax(0, 1fr)",
+    "grid-template-rows": "auto minmax(0, 1fr)",
     "background": "var(--vd-color-background-default-base)"
   },
   ".layout__header, .layout__aside": {
@@ -31,21 +31,20 @@
   },
   ".layout--has-navbar .layout__header": {
     "display": "block",
-    "position": "fixed",
+    "position": "sticky",
+    "grid-column": "1 / -1",
     "top": "0",
-    "left": "0",
-    "width": "100%",
-    "height": "var(--vd-layout-navbar-height)",
+    "min-height": "var(--vd-layout-navbar-height)",
     "z-index": "999"
   },
   ".layout--has-sidebar .layout__body": {
-    "grid-template-columns": "minmax(0, 1fr)"
+    "grid-template-columns": "var(--vd-layout-sidebar-width) minmax(0, 1fr)"
   },
   ".layout--has-sidebar .layout__aside": {
     "display": "block",
-    "position": "fixed",
+    "position": "sticky",
     "top": "0",
-    "left": "0",
+    "align-self": "start",
     "width": "var(--vd-layout-sidebar-width)",
     "height": "100dvh",
     "overflow": "auto"
