@@ -66,10 +66,10 @@ module.exports = function generateTokens() {
 
   function addIndexEntry(key, entry) {
     if (!key) return;
-    if (index.has(key)) {
-      console.warn(`[generate-tokens] Duplicate token key "${key}" — first definition wins.`);
-      return;
-    }
+    // if (index.has(key)) {
+    //   console.warn(`[generate-tokens] Duplicate token key "${key}" — first definition wins.`);
+    //   return;
+    // }
     index.set(key, entry);
   }
 
@@ -78,9 +78,9 @@ module.exports = function generateTokens() {
       const entry = { parts, node, rootName };
       const rawKey = parts.join(".");
 
-      addIndexEntry(rawKey, entry);
-
       const [scope, scopeName] = String(rootName).split(".");
+
+      if (scope !== "responsive" && scope !== "mapped") addIndexEntry(rawKey, entry);
       if (scope === "root") {
         addIndexEntry(["Root"].concat(parts).join("."), entry);
       }
@@ -91,15 +91,16 @@ module.exports = function generateTokens() {
         }
       }
       if (scope === "mapped") {
-        addIndexEntry(["Mapped"].concat(parts).join("."), entry);
         if (scopeName) {
           addIndexEntry(["Mapped", scopeName].concat(parts).join("."), entry);
         }
       }
       if (scope === "responsive") {
-        addIndexEntry(["Responsive"].concat(parts).join("."), entry);
         if (scopeName) {
-          addIndexEntry(["Responsive", scopeName].concat(parts).join("."), entry);
+          addIndexEntry(
+            ["Responsive", scopeName].concat(parts).join("."),
+            entry,
+          );
         }
       }
     });
@@ -370,7 +371,9 @@ module.exports = function generateTokens() {
           }
         });
       }
-    } catch (err) { console.warn(err); }
+    } catch (err) {
+      console.warn(err);
+    }
   }
 
   // Merge default brand tokens into rootVars so the active brand values appear in :root
@@ -412,7 +415,9 @@ module.exports = function generateTokens() {
           }
         });
       }
-    } catch (err) { console.warn(err); }
+    } catch (err) {
+      console.warn(err);
+    }
   }
 
   // Emit mapped (theme) scopes using :root[data-theme=name]
