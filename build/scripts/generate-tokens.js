@@ -65,7 +65,11 @@ module.exports = function generateTokens() {
   const index = new Map();
 
   function addIndexEntry(key, entry) {
-    if (!key || index.has(key)) return;
+    if (!key) return;
+    if (index.has(key)) {
+      console.warn(`[generate-tokens] Duplicate token key "${key}" — first definition wins.`);
+      return;
+    }
     index.set(key, entry);
   }
 
@@ -366,7 +370,7 @@ module.exports = function generateTokens() {
           }
         });
       }
-    } catch (err) {}
+    } catch (err) { console.warn(err); }
   }
 
   // Merge default brand tokens into rootVars so the active brand values appear in :root
@@ -408,7 +412,7 @@ module.exports = function generateTokens() {
           }
         });
       }
-    } catch (err) {}
+    } catch (err) { console.warn(err); }
   }
 
   // Emit mapped (theme) scopes using :root[data-theme=name]

@@ -42,8 +42,6 @@ console.log("✅ index.css generated");
 
 // 6️⃣ Copy fonts from build/fonts into dist/fonts
 function copyDirSync(src, dest) {
-  const fs = require("fs");
-  const path = require("path");
   if (!fs.existsSync(src)) return;
   fs.mkdirSync(dest, { recursive: true });
   const entries = fs.readdirSync(src, { withFileTypes: true });

@@ -21,15 +21,10 @@ module.exports = function generateTypography() {
 
   function inferWeight(descriptor) {
     const d = descriptor.toLowerCase();
-    if (d.includes("thin")) return 100;
-    if (d.includes("extralight") || d.includes("ultralight")) return 200;
-    if (d.includes("light")) return 300;
-    if (d.includes("regular") || d.includes("book")) return 400;
+    if (d.includes("semibold")) return 600;
     if (d.includes("medium")) return 500;
-    if (d.includes("semibold") || d.includes("demibold")) return 600;
     if (d.includes("bold")) return 700;
-    if (d.includes("extrabold") || d.includes("heavy")) return 800;
-    if (d.includes("black")) return 900;
+    if (d.includes("regular") || d.includes("italic")) return 400;
     return 400;
   }
 
@@ -77,27 +72,11 @@ module.exports = function generateTypography() {
     }
   }
 
-  // 1️⃣ Create :root font-family variables (if typography map contains fonts entry)
-  // let rootCss = ":root {\n";
-  // if (typographyMap.fonts) {
-  //   for (const [key, info] of Object.entries(typographyMap.fonts)) {
-  //     const family = info.family;
-  //     const fallbacks =
-  //       info.fallbacks ||
-  //       'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif';
-  //     rootCss += `  --vd-font-style-${key}: ${family}, ${fallbacks};\n`;
-  //   }
-  // } else {
-  //   // fallback single var
-  //   rootCss += `  --vd-font-style-primary: Avenir Next, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;\n`;
-  // }
-  // rootCss += "}\n\n";
-
-  // 2️⃣ Build main typography CSS
+  // Build main typography CSS
   let css =
     fontFaceCss +
     "\n" +
-    ':root { \nbody {\n  font-family: var(--vd-font-style-primary), system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;\n}\n}\n';
+    'body {\n  font-family: var(--vd-font-style-primary), system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;\n}\n';
 
   // HTML element mapping
   const elementMapping = {

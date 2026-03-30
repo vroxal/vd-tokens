@@ -26,7 +26,6 @@ module.exports = function generateGlobalCss() {
 /* 3. Improve text rendering */
 body {
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
 }
 
 /* 4. Media defaults */
