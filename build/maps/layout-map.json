@@ -4,8 +4,7 @@
     "--vd-layout-sidebar-width": "calc(2 * var(--vd-scale-spacing-3000))",
     "min-height": "100dvh",
     "display": "grid",
-    "grid-template-rows": "auto minmax(0, 1fr)",
-    "background": "var(--vd-color-background-default-base)"
+    "grid-template-rows": "auto minmax(0, 1fr)"
   },
   ".vd-layout__header, .vd-layout__aside": {
     "display": "none"
@@ -13,7 +12,8 @@
   ".vd-layout__body": {
     "min-height": "0",
     "display": "grid",
-    "grid-template-columns": "minmax(0, 1fr)"
+    "grid-template-columns": "minmax(0, 1fr)",
+    "background": "var(--vd-color-background-default-base)"
   },
   ".vd-layout__content": {
     "min-width": "0",

@@ -351,11 +351,11 @@
           "$type": "color"
         },
         "Secondary": {
-          "$value": "{Brand.Color.Neutral.800}",
+          "$value": "{Brand.Color.Neutral.700}",
           "$type": "color"
         },
         "SecondaryHover": {
-          "$value": "{Brand.Color.Neutral.700}",
+          "$value": "{Brand.Color.Neutral.600}",
           "$type": "color"
         },
         "Tertiary": {
